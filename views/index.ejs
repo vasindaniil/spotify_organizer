@@ -2,18 +2,19 @@
 <html>
   <head>
     <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/lib/bootstrap.css' />
+    <link rel='stylesheet' href='/stylesheets/lib/bootstrap-reboot.css' />
+    <link rel='stylesheet' href='/stylesheets/lib/bootstrap-grid.css' />
     <link rel='stylesheet' href='/stylesheets/style.css' />
-    <link rel='stylesheet' href='/stylesheets/bootstrap-grid.css' />
-    <link rel='stylesheet' href='/stylesheets/bootstrap.css' />
-    <link rel='stylesheet' href='/stylesheets/bootstrap-reboot.css' />
 
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <div class="container-fluid">
+      <a href="/login" type="button" class="btn btn-primary" id="spotifyLoginBtn">Login to Spotify</a>
+    </div>
   </body>
-  <script src="/javascripts/bootstrap.js" />
-  <script src="/javascripts/bootstrap-bundle.js" />
-  <script src="/javascripts/bootstrap-bundle.js" />
+  <script src="/javascripts/lib/jquery.js" />
+  <script src="/javascripts/lib/bootstrap.js" />
+  <script src="/javascripts/lib/bootstrap-bundle.js" />
   <script src="/javascripts/global.js" />
 </html>
